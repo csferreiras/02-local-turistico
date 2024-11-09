@@ -16,11 +16,13 @@ body {
 #container p.headline {
     text-transform: uppercase;
     color: #E1624F;
+}
+h1, h2, h3, li, p.info, p.headline{
     font-weight: bold;
+    color: #1B1B1B;
 }
 h1 {
     font-size: 36px;
-    color: #1B1B1B;
 }
 #imagen-description {
     padding: 4px 0;
@@ -45,9 +47,7 @@ h1 {
     margin: 64px 0;
 }
 h2 {
-    color: #1B1B1B;
     font-size: 32px;
-    font-weight: bold;
 }
 #title-list > p{
     margin-top: 8px;
@@ -60,19 +60,13 @@ h2 {
     margin-top: 20px;
 }
 h3 {
-    color: #1B1B1B;
     font-size: 28px;
-    font-weight: bold;
 }
 .content-card p.info {
-    font-weight: bold;
     margin-top: 20px;
 }
 ul {
     margin-left: 23px;
-}
-ul li{
-    font-weight: bold;
 }
 ul li::marker{
     color: #333333;
@@ -98,5 +92,4 @@ ul li.orange {
 footer{
     text-align: center;
     margin: 48px;
-}
-  
+}  
