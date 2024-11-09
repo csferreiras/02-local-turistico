@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F5F4F0;
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-weight: regular;
+}
+#container {
+    width: 1120px;
+    margin: 88px auto;
+}
+#container p.headline {
+    text-transform: uppercase;
+    color: #E1624F;
+    font-weight: bold;
+}
+h1 {
+    font-size: 36px;
+    color: #1B1B1B;
+}
+#imagen-description {
+    padding: 4px 0;
+    margin: 40px 0;
+}
+#container img {
+    width: 100%;
+    border-radius: 28px;
+}
+#container p.description{
+    font-style: italic;
+    text-align: center;
+    color: #333333;
+    margin-top: 24px;
+}
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #d9d9d9;
+}
+#title-list{
+    margin: 64px 0;
+}
+h2 {
+    color: #1B1B1B;
+    font-size: 32px;
+    font-weight: bold;
+}
+#title-list > p{
+    margin-top: 8px;
+    color: #333333;
+}
+.card-travel + .card-travel{
+    margin-top: 48px;
+}
+.card-travel .content-card{
+    margin-top: 20px;
+}
+h3 {
+    color: #1B1B1B;
+    font-size: 28px;
+    font-weight: bold;
+}
+.content-card p.info {
+    font-weight: bold;
+    margin-top: 20px;
+}
+ul {
+    margin-left: 23px;
+}
+ul li{
+    font-weight: bold;
+}
+ul li::marker{
+    color: #333333;
+}
+ul li.blue {
+    color: #0C51A7;
+}
+ul li.purple {
+    color: #591B98;
+}
+ul li.pink {
+    color: #E5245E;
+}
+ul li.orange {
+    color: #E95E10;
+}
+#container .divider{
+    margin: 40px 0;
+}
+#container .description-final{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    margin: 48px;
+}
+  
